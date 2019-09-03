@@ -1,0 +1,70 @@
+
+*{
+        padding:0;
+        margin: 0;
+}
+.art{
+   margin:0px;
+   padding:0px;
+   max-width: 45%;
+   margin-bottom: 20px; 
+}
+
+.center{
+    max-width: 45%;
+    text-align: center;
+    font-style: cursive;
+}
+
+.flex .pic{
+    float: right;
+    margin-right: 15%;
+    height: 600px;
+    margin-top: 25px;
+
+}
+
+.flex .card {
+    max-width: 30%;
+    margin-left: 8%;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3%;
+    border: 2px black solid;
+    margin-left:8%;
+}
+
+.flex .card .words{
+    padding: 10px 0;
+}
+
+.main-nav .nav{
+    background-color: black;
+    min-height: 50px;
+}
+
+.nav{
+    justify-content: space-around;
+    color: bisque;
+    display: flex;
+    list-style-type: none;
+    padding-top: 2px;
+    padding: 2px;
+    margin: 0 auto; 
+}
+
+.nav .name{ 
+    display: block;
+    margin-right: auto;
+    color: black;
+}
+
+.nav li{
+    padding: 15px 10px 10px 20px;
+    margin: 0 30px 0 30px;
+}
+
+body{
+    background-color: beige;
+}
